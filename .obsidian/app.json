@@ -1,0 +1,32 @@
+{
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+",
+  "attachmentFolderPath": "Notes/Attachments",
+  "alwaysUpdateLinks": true,
+  "livePreview": true,
+  "showFrontmatter": true,
+  "showInlineTitle": true,
+  "mobilePullAction": "switcher:open",
+  "mobileToolbarCommands": [
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:cut",
+    "editor:swap-line-down",
+    "editor:swap-line-up",
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "obsidian-git:view-history-on-github",
+    "audio-recorder:start",
+    "audio-recorder:stop"
+  ],
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": [
+    "System/Templates/"
+  ],
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview",
+  "showLineNumber": true
+}

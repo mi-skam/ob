@@ -1,0 +1,13 @@
+{
+  "frontmatterProperty": "modified",
+  "momentFormat": "",
+  "excludedFolders": [
+    "Atlas/Utilities/"
+  ],
+  "useKeyupEvents": false,
+  "onlyUpdateExisting": true,
+  "timeout": 10,
+  "excludeField": "exclude_modified_update",
+  "appendField": "append_modified_update",
+  "appendMaximumFrequency": "day"
+}

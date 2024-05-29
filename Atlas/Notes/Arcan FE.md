@@ -1,0 +1,5 @@
+#interface 
+
+Arcan is a powerful development framework for creating virtually anything between user interfaces for specialised embedded applications all the way to full-blown standalone [desktop environments](http://durden.arcan-fe.com/). Boot splash screen? no problem. Custom Interface for your Home Automation Project? sure thing. [Stream media processing](https://arcan-fe.com/2017/10/05/awk-for-realtime-multimedia/)? Of course. It has been used in a number of both [experimental](https://arcan-fe.com/2015/02/08/next-experiment-senseye/), hobby, [academic research](http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A834593&dswid=9957) and commerical projects and products alike, in areas ranging from [VR desktops](https://arcan-fe.com/2018/03/29/safespaces-an-open-source-vr-desktop/) to industrial computer vision systems for robotic automation.
+
+https://arcan-fe.com/

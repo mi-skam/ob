@@ -1,0 +1,32 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "png",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Light Literature Note",
+      "outputPathTemplate": "Atlas/Notes/Sources/@{{citekey}}.md",
+      "imageOutputPathTemplate": "Atlas/Utilities/Attachments/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Atlas/Utilities/Templates/Light Literature Note.md",
+      "cslStyle": "hochschule-bonn-rhein-sieg"
+    },
+    {
+      "name": "Literature Note",
+      "outputPathTemplate": "Atlas/Notes/Sources/@{{citekey}}.md",
+      "imageOutputPathTemplate": "Atlas/Utilities/Attachments/@{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Atlas/Utilities/Templates/Light Literature Note.md",
+      "cslStyle": "hochschule-bonn-rhein-sieg"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "pdfExportImageOCR": true,
+  "shouldConcat": true,
+  "pdfExportImageTesseractPath": "/opt/homebrew/bin/tesseract"
+}

@@ -1,0 +1,5 @@
+{
+  "folder": "Calendar/Dailies",
+  "autorun": true,
+  "template": "Atlas/Utilities/Templates/Daily"
+}

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"1966e58812f4195a","x":-420,"y":-340,"width":300,"height":400,"color":"3","type":"file","file":"Notes/Scratchpad.md"},
+		{"id":"1e6c435ace55ea67","x":-60,"y":-340,"width":400,"height":400,"color":"5","type":"file","file":"Notes/Dashboard.md"}
+	],
+	"edges":[]
+}
