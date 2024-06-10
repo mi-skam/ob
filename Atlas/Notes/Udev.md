@@ -1,4 +1,4 @@
-#linux 
+
 ### Reload Udev rules without reboot
 
 ```bash

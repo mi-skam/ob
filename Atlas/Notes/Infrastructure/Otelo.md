@@ -1,16 +1,15 @@
 ---
-comment: HP N54L server (1*256GB SSD, 1*Raid-1 2TB, 1*Raid-1 8TB)
+comment:
+  - HP N54L server (1*256GB SSD, 1*Raid-1 2TB, 1*Raid-1 8TB)
 roles:
   - vm-host, container-host
 os: proxmox
 ip: 192.168.178.99
 status: inactive
-date:
+created:
   - - 2023-08-02
-tags:
-  - network/homelab/device
 ---
-#network/homelab 
+
 
 # [[Otelo]]
 

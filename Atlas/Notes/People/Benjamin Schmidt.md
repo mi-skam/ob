@@ -7,7 +7,9 @@ email: benjamin@new-objects.com
 aliases: 
 languages: 
 date_last_spoken: 
-follow_up:
+follow_up: 
+tags:
+  - people
 ---
 
 # [[Benjamin Schmidt]]

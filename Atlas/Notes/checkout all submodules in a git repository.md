@@ -1,13 +1,13 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-04-24
-modified: 2024-05-14T13:53:18+02:00
+created: 2024-04-24
+  2024-05-14T13:53:18+02:00
 tags:
   - code/tutorial
-languages: 
+languages:
 ---
-``
-Get the submodules which are currently **tracked** (it's inside `.git/modules`):
+
+``Get the submodules which are currently **tracked** (it's inside`.git/modules`):
 
 ```shell
 git submodule update --recursive
@@ -24,4 +24,5 @@ git commit
 ```
 
 ---
-[[Code snippets]]
+
+[[Snippets]]

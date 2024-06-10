@@ -1,7 +1,7 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-09-05
+created: 2023-09-05
 ---
 # OpenCV
 

@@ -1,18 +1,14 @@
 ---
-comment: Synology NAS 2TB (RAID-0 SSD), 1*8TB external HDD
+comment:
+  - Synology NAS 2TB (RAID-0 SSD), 1*8TB external HDD
 roles:
   - nas
   - container-host
 os: qnap
 status: active
-date: 2023-08-02
-tags:
-  - network/homelab/device
+created: 2023-08-02
 ---
-
-#network/homelab 
-
-# [[Zigzag]]
+# [[Atlas/Notes/Infrastructure/Zigzag]]
 
 ## Maintenance
 

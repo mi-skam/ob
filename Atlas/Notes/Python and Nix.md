@@ -1,9 +1,7 @@
 ---
-parent: "[[Fleeting MOC]]"
-date: 2024-03-30
-tags:
-  - 🦠
-modified: 2024-03-30T23:14:27+01:00
+parent:
+  - "[[Fleeting MOC]]"
+created: 2024-03-30
 ---
 
 [[Python]] and [[Nix]] can sometimes be really hard to bring together. So it's nice to have some examples how to create packages, dev environments and so forth
@@ -12,7 +10,7 @@ modified: 2024-03-30T23:14:27+01:00
 
 With `buildFHS` python is almost like in a container with binaries at `/usr/bin`
 
-Creating this environment, you can emulate the classic Python approach. 
+Creating this environment, you can emulate the classic Python approach.
 
 After being in the environment with `nix develop`, you simply create a venv with `python -m venv .venv` and you install packages with `pip`
 
@@ -29,7 +27,7 @@ After being in the environment with `nix develop`, you simply create a venv with
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        
+
       in {
         devShells.default = (pkgs.buildFHSUserEnv {
           name = "streamlit-env";

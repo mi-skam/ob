@@ -21,6 +21,4 @@ https://www.youtube.com/watch?v=HNFF_EeFr9Y&list=PL-1Nqb2waX4Vba6QDVS5rhnSb9pZGT
 [Anki Setup](https://refold.la/roadmap/stage-1/a/anki-setup)
 
 
-#learn/2learn
-
 

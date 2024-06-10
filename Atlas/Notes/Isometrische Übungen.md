@@ -2,7 +2,7 @@
 aliases:
   - Sport
 publish: true
-date: 2023-09-07
+created: 2023-09-07
 ---
 # Isometrische Übungen
 

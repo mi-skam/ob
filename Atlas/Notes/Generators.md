@@ -1,6 +1,3 @@
----
-tags: programming
----
 The `g.next()` method runs until it reaches the `yield` keyword. `yield` interrupts the execution flow and returns the value on the _right_ hand side as an property of `{ value: ..., done: ... }` and stops there. It doesn't even evaluate the expression to the _left_ side. When called with an argument, it replaces the expression with the value of the argument.
 
 ```js

@@ -1,4 +1,3 @@
-#macos 
 
 ## window manager for macOS
 

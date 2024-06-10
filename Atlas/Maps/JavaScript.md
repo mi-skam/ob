@@ -1,9 +1,5 @@
----
-tags: programming, moc
-
----
 [[Arrays]]
-[[Asynchronous Code]]
+[[Asynchronous Code (Callbacks, Promises, Async Await)]]
 [[Cloning a JavaScript Object]]
 [[Command pattern]]
 [[Closures]]
@@ -15,7 +11,7 @@ tags: programming, moc
 [[Funktionen]]
 [[Generators]]
 [[Iterable and Iterator]]
-[[JavaScript Algorithms and Data Structures Masterclass]]
+[[Atlas/Notes/JavaScript Algorithms and Data Structures Masterclass]]
 [[JSON stringify]]
 [[Map]]
 [[Memoization Pattern]]

@@ -1,6 +1,3 @@
----
-device: zigzag
----
 
 ## LogitechMediaServer
 

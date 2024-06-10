@@ -1,9 +1,5 @@
 ---
-parent: "[[Fleeting MOC]]"
-date: 2024-01-10
-tags:
-  - 🦠
-modified: 2024-02-18T17:00:00+01:00
+created: 2024-01-10
 ---
 
 It's firm's Tablet running Android 12 with the Samsung OneUi 4.1. As a former flagship Tablet it's still running beautifully, but a lot of crap is running on the system.
@@ -13,11 +9,13 @@ It's firm's Tablet running Android 12 with the Samsung OneUi 4.1. As a former fl
 To get parts of the pre-installed apps. One can use [[Android|Android's]] `adb shell` command to remove packages.
 
 Requirements:
+
 1. Enable developer tools
 2. Enable remote usb debugging
 3. Install adb tools
 
 Login to your device
+
 ```shell
 adb shell
 

@@ -1,8 +1,8 @@
 ---
 parent:
   - "[[Fleeting MOC]]"
-date: 2024-04-09
-modified: 2024-04-11T02:45:48+02:00
+created: 2024-04-09
+  2024-04-11T02:45:48+02:00
 tags:
   - code/tutorial
 languages: bash
@@ -13,10 +13,13 @@ src="/path/to/src"
 target="/path/to/target"
 dir="mydir"
 ```
+
 ## Backup
+
 ```bash
 tar -czv -C $src $dir | split -d -b 3900M - $target/$dir.tar.gz.part-
 ```
+
 ## Restore
 
 ```bash
@@ -49,7 +52,7 @@ backup() {
     else
         tar -czf - -C "$src_dir" "$src_base" | split -d -b 3900M - "$target_dir/$src_base-$(date +'%Y-%m-%d').tar.gz.part-"
     fi
-    
+
     echo "Backup completed. Parts are located in: $target_dir"
 }
 
@@ -77,5 +80,7 @@ restore() {
 }
 
 ```
+
 ---
+
 [[Tutorials]]

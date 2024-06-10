@@ -1,12 +1,11 @@
 ---
-parent: "[[Fleeting MOC]]"
-date: 2024-04-02
-modified: 2024-04-02T17:24:27+02:00
+in: "[[Snippets]]"
+up: 
+related: 
+created: 2024-05-31
 tags:
   - code/snippet
-languages: powershell
 ---
-
 Add this to `$PROFILE`
 
 ```powershell
@@ -16,4 +15,4 @@ $env:path += ";$ProfileRoot"
 
 
 ---
-[[Code snippets]]
+[[Snippets]]

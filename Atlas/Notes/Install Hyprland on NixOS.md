@@ -1,16 +1,17 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-04-02
-modified: 2024-04-05T15:01:40+02:00
+created: 2024-04-02
+  2024-04-05T15:01:40+02:00
 tags:
   - code/tutorial
 languages: nix
 ---
 
 Enable these options:
+
 ```nix
 programs.hyprland = {
-  enable = true; 
+  enable = true;
   xwayland.hidpi = true;
   xwayland.enable = true;
 };
@@ -22,6 +23,7 @@ environment.sessionVariables = {
 ```
 
 This activates screensharing
+
 ```nix
 services.dbus.enable = true;
 xdg.portal = {
@@ -34,6 +36,7 @@ xdg.portal = {
 ```
 
 Required packages
+
 ```nix
 environment.systemPackages = with pkgs; [
   hyprland
@@ -73,10 +76,10 @@ fonts.fonts = with pkgs; [
 ];
 ```
 
-
 ## Configuration
 
 `~/.config/hypr/start.sh`:
+
 ```shell
 #!/usr/bin/env bash
 
@@ -99,4 +102,5 @@ exec-once=bash ~/.config/hypr/start.sh
 ```
 
 ---
-[[Code snippets]]
+
+[[Snippets]]

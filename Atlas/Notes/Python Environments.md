@@ -1,19 +1,17 @@
 ---
-parent: "[[Python]]"
-date: 2024-01-23
-tags:
-  - 🦠
-modified: 2024-02-20T14:15:33+01:00
-alias: conda
+created: 2024-01-23
+aliases:
+  - conda
 ---
 
 ## Miniconda
 
-To get started on Windows, install *Miniconda* per `winget install Anaconda.Miniconda3`
+To get started on Windows, install _Miniconda_ per `winget install Anaconda.Miniconda3`
 
-[Here](https://docs.conda.io/projects/miniconda/en/latest/) are the links to the installer to miniconda for *all* platforms.
+[Here](https://docs.conda.io/projects/miniconda/en/latest/) are the links to the installer to miniconda for _all_ platforms.
 
 ### nix / home-manager
+
 Little note to systems using [[Home-Manager]]: As we control the init files for bash, you need to manage what usually `conda init` is doing by yourself - as it tries to alter `.bashrc or .zshrc.
 
 I ran `conda init` myself and captured the content to a arbitrary config sh:
@@ -38,7 +36,8 @@ unset __conda_setup
 This is sourced from `.bashrc`
 
 ### powershell
-I added  a `conda-hook` to my powershell profile, to have `conda` setup and in my `$PATH` and the `(base)` environment automatically *activated*.
+
+I added a `conda-hook` to my powershell profile, to have `conda` setup and in my `$PATH` and the `(base)` environment automatically _activated_.
 
 ```powershell
 start $PROFILE
@@ -51,7 +50,8 @@ Invoke-Conda activate base
 ```
 
 ### Environments
-After the installation *base* is the only setup environment. You can the following commands to interact with *environments*.
+
+After the installation _base_ is the only setup environment. You can the following commands to interact with _environments_.
 
 ```shell
 # create new environments
@@ -81,13 +81,15 @@ conda env export -n <name> > environment.yml
 ```
 
 Update all packages in the current environment
+
 ```shell
 conda update --all
 ```
 
 ### Enable conda-forge
 
-Conda-Forge is a huge and very practical *channel* that extends the current set of *anaconda* built-in channels.
+Conda-Forge is a huge and very practical _channel_ that extends the current set of _anaconda_ built-in channels.
+
 ```shell
 conda config --add channels conda-forge
 # Activate `strict` channel priority (`strict` will be activated by default in conda 5.0)
@@ -103,12 +105,14 @@ conda install -c conda-forge notebook
 conda install -c conda-forge nb_conda_kernels
 ```
 
-Install *pip* if needed, to create *sub-environments*
+Install _pip_ if needed, to create _sub-environments_
+
 ```shell
 conda install pip
 ```
 
 Install jupyter console
+
 ```shell
 conda install jupyter_console
 ```

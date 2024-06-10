@@ -1,12 +1,10 @@
 ---
-parent: "[[Stable Diffusion MOC]]"
-date: 2023-12-11
+created: 2023-12-11
 tags:
-  - 🦠
-modified: 2023-12-11T15:06:54+01:00
 ---
+	
+## Installation 
 
-## Installation
 
 ### Requirements
 1. Python 3.10 or Python 3.11

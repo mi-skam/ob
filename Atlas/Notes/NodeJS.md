@@ -1,7 +1,7 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-10-09
+created: 2023-10-09
 ---
 # [[NodeJS]]
 
@@ -51,6 +51,6 @@ const __dirname = new URL('.', import.meta.url).pathname
 
 ```
 
-[[minimal example  to serve files in public]]
+[[Node.js minimal example  to serve files in public]]
 
 [[npm]]

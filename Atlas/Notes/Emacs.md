@@ -1,10 +1,5 @@
 ---
-parent: "[[Fleeting MOC]]"
-date: 2024-02-22
-tags:
-  - 🦠
-  - code/editor
-modified: 2024-02-22T15:18:34+01:00
+created: 2024-02-22
 ---
 
 # Learning Emacs

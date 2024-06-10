@@ -7,248 +7,29 @@ tags: [excalidraw]
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 
-# Text Elements
+# Excalidraw Data
+## Text Elements
 %%
-# Drawing
-```json
-{
-	"type": "excalidraw",
-	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.10",
-	"elements": [
-		{
-			"type": "freedraw",
-			"version": 41,
-			"versionNonce": 1211338075,
-			"isDeleted": false,
-			"id": "USgDoZ3cSvCOnbsMJjmsr",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -139.45834350585938,
-			"y": -283.82550048828125,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 34.5,
-			"height": 40.5,
-			"seed": 947861225,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1702544961733,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-1,
-					-0.5
-				],
-				[
-					-1.5,
-					0
-				],
-				[
-					-1,
-					0
-				],
-				[
-					2,
-					1
-				],
-				[
-					6.5,
-					6
-				],
-				[
-					11,
-					13
-				],
-				[
-					15.5,
-					21.5
-				],
-				[
-					20,
-					27.5
-				],
-				[
-					24.5,
-					32.5
-				],
-				[
-					27,
-					35.5
-				],
-				[
-					30,
-					38
-				],
-				[
-					32,
-					39
-				],
-				[
-					33,
-					40
-				],
-				[
-					33,
-					40
-				]
-			],
-			"lastCommittedPoint": null,
-			"simulatePressure": false,
-			"pressures": [
-				0.0244140625,
-				0.0244140625,
-				0.4013671875,
-				0.4267578125,
-				0.4716796875,
-				0.5048828125,
-				0.55078125,
-				0.5673828125,
-				0.58203125,
-				0.580078125,
-				0.5625,
-				0.4365234375,
-				0.2861328125,
-				0.1484375,
-				0
-			]
-		},
-		{
-			"type": "freedraw",
-			"version": 34,
-			"versionNonce": 1285062779,
-			"isDeleted": false,
-			"id": "Zit4N8qvaNIATsRjHKsSA",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -148.125,
-			"y": -230.82553100585938,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 49.5,
-			"height": 60.5,
-			"seed": 2017445097,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1702544960417,
-			"link": null,
-			"locked": false,
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-1.5,
-					0.5
-				],
-				[
-					-1.5,
-					-2
-				],
-				[
-					2,
-					-8
-				],
-				[
-					8,
-					-16
-				],
-				[
-					17.5,
-					-26
-				],
-				[
-					27.5,
-					-37.5
-				],
-				[
-					36.5,
-					-48
-				],
-				[
-					43,
-					-55
-				],
-				[
-					48,
-					-60
-				],
-				[
-					48,
-					-60
-				]
-			],
-			"lastCommittedPoint": null,
-			"simulatePressure": false,
-			"pressures": [
-				0.072265625,
-				0.072265625,
-				0.40234375,
-				0.4326171875,
-				0.4453125,
-				0.498046875,
-				0.5693359375,
-				0.5712890625,
-				0.4306640625,
-				0.1943359375,
-				0
-			]
-		}
-	],
-	"appState": {
-		"theme": "light",
-		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "transparent",
-		"currentItemFillStyle": "solid",
-		"currentItemStrokeWidth": 2,
-		"currentItemStrokeStyle": "solid",
-		"currentItemRoughness": 1,
-		"currentItemOpacity": 100,
-		"currentItemFontFamily": 1,
-		"currentItemFontSize": 20,
-		"currentItemTextAlign": "left",
-		"currentItemStartArrowhead": null,
-		"currentItemEndArrowhead": "arrow",
-		"scrollX": 303.625,
-		"scrollY": 536.515625,
-		"zoom": {
-			"value": 2
-		},
-		"currentItemRoundness": "round",
-		"gridSize": null,
-		"gridColor": {
-			"Bold": "#C9C9C9FF",
-			"Regular": "#EDEDEDFF"
-		},
-		"currentStrokeOptions": null,
-		"previousGridSize": null,
-		"frameRendering": {
-			"enabled": true,
-			"clip": true,
-			"name": true,
-			"outline": true
-		}
-	},
-	"files": {}
-}
+## Drawing
+```compressed-json
+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
 ```
 %%

@@ -1,19 +1,13 @@
 ---
-parent:
-  - "[[Fleeting MOC]]"
-date: 2024-04-23
-modified: 2024-04-25T11:44:20+02:00
-tags:
-  - code/tutorial
-  - linux/nixos
+created: 2024-04-23 2024-04-25T11:44:20+02:00
 languages: nix
 ---
 
 I needed a webdav server as a backing server for [[Zotero MOC]] and I went with [[Caddy]] and [[webdav-server-rs]] which I found on the [[NixOS]] page.
 
-
 > [!INFO] TLDR;
-> 1. Create a directory for webdav user 
+>
+> 1. Create a directory for webdav user
 > 2. Create a htpasswd for http auth
 > 3. Enable caddy and webdav-rs-server
 
@@ -101,4 +95,5 @@ in {
 ```
 
 ---
+
 [[Tutorials]]

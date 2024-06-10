@@ -1,4 +1,4 @@
-[[Asynchronous Code]] [[📼 Asynchronus Programming in JavaScript]]
+[[Asynchronous Code (Callbacks, Promises, Async Await)]] [[📼 Asynchronus Programming in JavaScript]]
 
 ![[Screenshot 2023-07-19 at 14.19.03.png]]
 

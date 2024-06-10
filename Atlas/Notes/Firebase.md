@@ -1,12 +1,11 @@
 ---
 parent: "[[Web Development]]"
-date: 2024-01-17
-tags:
-  - 🦠
-modified: 2024-01-17T15:47:51+01:00
+created: 2024-01-17
+tags: 2024-01-17T15:47:51+01:00
 ---
 
 Firestore is
+
 1. realtime database.
 2. NoSQL database (document based)
 
@@ -54,7 +53,7 @@ As we have seen we work with a reference to the `db` and the `.collection(name)`
 A `query` can look like this:
 
 ```js
-query = ['city', '==', 'Dresden'];
+query = ["city", "==", "Dresden"];
 ```
 
 ## Order the output
@@ -63,12 +62,12 @@ We sort the output by using `.orderBy(criteria)` method, e.G. `.orderBy('city')`
 
 ## Getting a document in a collection
 
-To get a single document we use the `.doc(id)` method which expects the *id* of a document and returns this single document if found.
+To get a single document we use the `.doc(id)` method which expects the _id_ of a document and returns this single document if found.
 
 ## Saving data to the firestore
 
-We use a similar method, like we did for reading data, it's called `.add(data)`, which expects an object which consists of the data to be uploaded. 
-In our example we bind it to the *submit event* of a button
+We use a similar method, like we did for reading data, it's called `.add(data)`, which expects an object which consists of the data to be uploaded.
+In our example we bind it to the _submit event_ of a button
 
 ```js
 form.addEventListener("submit", (evt) => {
@@ -87,27 +86,27 @@ form.addEventListener("submit", (evt) => {
 
 `.update(data)` works like `.add(data)` but instead of being part of the collection, it's a method on each document. So you could invoke an `.doc(id)` method to get a reference to a single document and then update the data `.doc(id).update(data)`.
 
-`.set(data)` works like `.update(data)` but removes all former data before writing *data* to the object.
+`.set(data)` works like `.update(data)` but removes all former data before writing _data_ to the object.
 
 ## Deleting a document
 
-To delete a element we use the `.delete()` method on a single document. In our example we add the method on a *click* event handler.
+To delete a element we use the `.delete()` method on a single document. In our example we add the method on a _click_ event handler.
 
 ```js
-  cross.addEventListener("click", (evt) => {
-    evt.stopPropagation();
-    let id = evt.target.parentElement.getAttribute("data-id");
-    db.collection("cafes").doc(id).delete();
-  });
+cross.addEventListener("click", (evt) => {
+  evt.stopPropagation();
+  let id = evt.target.parentElement.getAttribute("data-id");
+  db.collection("cafes").doc(id).delete();
+});
 ```
 
 ## Realtime updates
 
-To get updates from our `db` we subscribe to change events called snapshots in the api `db.collection.onSnapshot(snapshot)` 
+To get updates from our `db` we subscribe to change events called snapshots in the api `db.collection.onSnapshot(snapshot)`
 
-In a snapshot we get all changes to our documents by invoking `snapshot.docChanges()`. This returns an array with *change objects*.
+In a snapshot we get all changes to our documents by invoking `snapshot.docChanges()`. This returns an array with _change objects_.
 
-Iterating over this changes, allows us to look for certain *change types*, e.G. "added" and "removed". 
+Iterating over this changes, allows us to look for certain _change types_, e.G. "added" and "removed".
 
 In our example we render all "added" objects to our frontend and remove the ones, which are "removed"
 

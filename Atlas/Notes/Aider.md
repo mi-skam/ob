@@ -1,7 +1,7 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-10-26
+created: 2023-10-26
 ---
 # Aider
 

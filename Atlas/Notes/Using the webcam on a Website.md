@@ -1,4 +1,4 @@
-#code/html
+
 
 > [!tip] 
 > Look at the **webcam** example in [mi-skam/learn-lil-gui](https://github.com/mi-skam/learn-lil-gui/tree/main/pages/webcam)

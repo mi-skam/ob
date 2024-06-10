@@ -1,4 +1,3 @@
-#network/vpn #network/wireguard 
 
   
 The solution comes in the form of an Internet-facing server with a static IP. That server will receive requests and forward them to the LAN server through an encrypted, performant [WireGuard](https://www.wireguard.com/) tunnel:

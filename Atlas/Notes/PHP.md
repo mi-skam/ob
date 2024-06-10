@@ -1,4 +1,3 @@
-#code/php
 
 # Composer
 

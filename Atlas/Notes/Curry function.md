@@ -1,11 +1,5 @@
 ---
-parent:
-  - "[[Fleeting MOC]]"
-date: 2024-04-16
-tags:
-  - code/cs
-  - code/js
-modified: 2024-04-16T01:51:01+02:00
+created: 2024-04-16
 ---
 
 A curry function is a function which transform a function which accepts multiple arguments to a series of nested functions which accepts one argument at a time.

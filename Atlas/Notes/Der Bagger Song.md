@@ -1,12 +1,6 @@
-#lyrics 
-
-https://www.youtube.com/watch?v=7Wo-1vSmaZA
 
 Refrain
 Ich bin der gelbe Bagger Jack und baggern ist mein Lebenszweck! 
-
-
-![300](https://oaidalleapiprodscus.blob.core.windows.net/private/org-zgKQQgsC15ooGXaIeYbcFwPN/user-JvRkO1D11V0EROHg5EQ3S3pe/img-ZWpQVILF8FpBczS0UN1i9aBv.png?st=2023-06-15T18%3A27%3A15Z&se=2023-06-15T20%3A27%3A15Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-06-14T21%3A23%3A20Z&ske=2023-06-15T21%3A23%3A20Z&sks=b&skv=2021-08-06&sig=6JVPl5Tg5nzg9GfuK4rfcmxb65q9172rasq0PNMh1uY%3D)
 
 Montag fahr' ich früh am Morgen zu ‘nem wirklich alten Haus,
 mit der großen Abriss-Zange brech‘ ich Dach und Wände raus.

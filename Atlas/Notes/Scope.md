@@ -1,9 +1,7 @@
 ---
 parent: "[[JavaScript]]"
-date: 2024-01-07
-tags:
-  - 🦠
-modified: 2024-01-07T21:10:08+01:00
+created: 2024-01-07
+tags: 2024-01-07T21:10:08+01:00
 ---
 
 ## Lexical scoping (static scoping)
@@ -27,13 +25,15 @@ alsoPrintAnimal();
 
 ## Hoisting
 
-Moves the variable *declarations* (excluding its initialisation) to the top of the scope
+Moves the variable _declarations_ (excluding its initialisation) to the top of the scope
 
 ```js
 console.log(food); // -> "undefined", not an error!
 var food = "french fries";
 ```
+
 equals to
+
 ```js
 var food;
 console.log(food);
@@ -49,8 +49,8 @@ it's either globally available, or in a functional scope - nothing in between. a
 additionally they are linked to the global object, e.G. `window` in a browser.
 
 ```js
-var moinMoin = "hello friend."
-console.log(window.moinMoin) // -> "hello friend."
+var moinMoin = "hello friend.";
+console.log(window.moinMoin); // -> "hello friend."
 ```
 
 ## let and const scope
@@ -62,5 +62,3 @@ respects the following scopes:
 3. block (everything in curly braces)
 
 let is for variables that are supposed to change their value, const is immutable.
-
-

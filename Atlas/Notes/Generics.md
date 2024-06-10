@@ -1,8 +1,8 @@
 ---
 parent:
   - "[[Fleeting MOC]]"
-date: 2024-04-12
-modified: 2024-04-12T17:02:46+02:00
+created: 2024-04-12
+  2024-04-12T17:02:46+02:00
 tags:
   - code/tutorial
 languages: typescript
@@ -12,17 +12,13 @@ Using Generics in statically typed languages we may work with the type as a **ty
 
 ```ts
 const identity = <T>(arg: T): T => {
-  return arg
-}
+  return arg;
+};
 
-console.log(identity(1))
-console.log(identity(true))
+console.log(identity(1));
+console.log(identity(true));
 ```
 
-
-
-
-
-
 ---
+
 [[Tutorials]]

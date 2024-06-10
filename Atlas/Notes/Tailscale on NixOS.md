@@ -1,7 +1,7 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-04-03
-modified: 2024-04-04T13:43:49+02:00
+created: 2024-04-03
+  2024-04-04T13:43:49+02:00
 tags:
   - code/tutorial
 languages: nix
@@ -23,10 +23,11 @@ Make tailscale accessible for users and enable the service:
 ```
 
 Set-up the device with
+
 ```shell
 sudo tailscale up
 ```
 
-
 ---
-[[Code snippets]]
+
+[[Snippets]]

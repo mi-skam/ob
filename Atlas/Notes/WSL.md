@@ -1,12 +1,10 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2023-12-12
-tags:
-  - 🦠
-modified: 2024-01-04T11:12:15+01:00
+created: 2023-12-12
+tags: 2024-01-04T11:12:15+01:00
 ---
 
-To save a lot of memory in WSL, you can disable[^1] **WSL-G**, the graphical user interface subsystem.  🙃👍 
+To save a lot of memory in WSL, you can disable[^1] **WSL-G**, the graphical user interface subsystem. 🙃👍
 
 ## Installation
 
@@ -22,7 +20,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 ## Configuration
 
- .wslconfig
+.wslconfig
+
 ```ini
 [wsl2]
 guiApplications=false

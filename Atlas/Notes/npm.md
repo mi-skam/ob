@@ -1,7 +1,7 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-10-11
+created: 2023-10-11
 ---
 # npm
 

@@ -1,12 +1,14 @@
 ---
-company:
-location:
-title:
-email:
-aliases:
-languages:
-date_last_spoken:
-follow_up:
+company: 
+location: 
+title: 
+email: 
+aliases: 
+languages: 
+date_last_spoken: 
+follow_up: 
+tags:
+  - people
 ---
 
 # [[Malte Westphalen]]

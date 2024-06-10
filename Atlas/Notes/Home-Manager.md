@@ -1,9 +1,5 @@
 ---
-aliases: 
-publish: true
-date: 2023-10-27
-tags:
-  - linux/nixos
+created: 2023-10-27
 ---
 # Home-Manager
 

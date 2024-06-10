@@ -1,24 +1,22 @@
 ---
 parent:
   - "[[Fleeting MOC]]"
-date: 2024-01-29
-tags:
-  - code/js
-  - code/ts
-  - code/deno
-modified: 2024-01-29T16:42:41+01:00
+created: 2024-01-29
+tags: []
 ---
 
-## Create Multi-Page applications 
+## Create Multi-Page applications
 
 ### dev server
+
 By default the `vite` dev serves the content of a file directory if requested, meaning routes are automatically set-up if vite can resolve them.
 
-A directory by the name `/some/directory` automatically is served at `http://localhost:4173/some/directory/` 
+A directory by the name `/some/directory` automatically is served at `http://localhost:4173/some/directory/`
 
 It's important to append the slash at the end 💥
 
 ### build-out
+
 To also get the route working for the build out, we need to alter vite's configuration:
 The main config is in[`build.rollupOptions.input`](https://rollupjs.org/configuration-options/#input)
 

@@ -1,10 +1,8 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-11-01
+created: 2023-11-01
 ---
-# phaser3
-
 ## Setup
 
 ```js

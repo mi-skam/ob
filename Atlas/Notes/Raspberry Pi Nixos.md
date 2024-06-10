@@ -1,9 +1,3 @@
----
-Cliped: 2024-01-25 11:52
-Source: http://sprunge.us/bHpqLS
-Tags: ["#Browser","#Source"]
-Comment: 
----
 
 ```nix
 { config, pkgs, lib, ... }:

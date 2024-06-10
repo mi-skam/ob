@@ -1,7 +1,7 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-04-04
-modified: 2024-04-04T17:22:22+02:00
+created: 2024-04-04
+  2024-04-04T17:22:22+02:00
 tags:
   - code/tutorial
 languages: nix
@@ -11,14 +11,14 @@ Experimental support for VS Code Server in NixOS. The NodeJS by default supplied
 
 ## Installation
 
-### 
+###
 
 NixOS module
 
 You can add the module to your system in various ways. After the installation  
 you'll have to manually enable the service for each user (see below).
 
-#### 
+####
 
 Install as a tarball
 
@@ -32,7 +32,7 @@ Install as a tarball
 }
 ```
 
-#### 
+####
 
 Install as a flake
 
@@ -53,7 +53,7 @@ Install as a flake
 }
 ```
 
-#### 
+####
 
 Enable the service
 
@@ -89,7 +89,7 @@ Enabling the user service creates a symlink to the Nix store, but the linked sto
 ln -sfT /run/current-system/etc/systemd/user/auto-fix-vscode-server.service ~/.config/systemd/user/auto-fix-vscode-server.service
 ```
 
-### 
+###
 
 Home Manager
 
@@ -105,13 +105,13 @@ Put this code into your [![](data:image/png;base64,AAABAAIAEBAAAAEAIAAoBQAAJgAA
 }
 ```
 
-## 
+##
 
 Usage
 
 When using VS Code as released by Microsoft without any special needs, just enabling and starting the service should be enough to make things work. If you have some custom build or needs, there are a few options available that might help you out.
 
-### 
+###
 
 `enable`
 
@@ -123,7 +123,7 @@ Whether to enable the service or not.
 }
 ```
 
-### 
+###
 
 `enableFHS`
 
@@ -135,7 +135,7 @@ A FHS compatible environment can be enabled to make binaries supplied by extensi
 }
 ```
 
-### 
+###
 
 `nodejsPackage`
 
@@ -151,7 +151,7 @@ Disclaimer: I am not a very active user of this extension and even NixOS (at the
 }
 ```
 
-### 
+###
 
 `extraRuntimeDependencies`
 
@@ -167,7 +167,7 @@ This same list is also used to determine the `RPATH` when automatically patchi
 }
 ```
 
-### 
+###
 
 `installPath`
 
@@ -179,7 +179,7 @@ The installation path for VS Code server is configurable and the default can dif
 }
 ```
 
-### 
+###
 
 `postPatch`
 
@@ -195,7 +195,7 @@ The goal of this project is to make VS Code server work with NixOS, anything mor
 }
 ```
 
-## 
+##
 
 Troubleshooting
 
@@ -207,7 +207,7 @@ systemctl --user disable auto-fix-vscode-server.service
 
 This will remove the symlink to the old version. Then you can enable/start it again.
 
-### 
+###
 
 Connecting with SSH timed out
 
@@ -223,21 +223,22 @@ Try adding this to your VS Code settings json:
 
 Tested on VS Code version 1.63.2, connecting to the NixOS remote from a MacOS host.
 
-## 
+##
 
 Future work
 
-### 
+###
 
 Patching extensions
 
 More work is needed to see if it is possible to also automatically patch binaries in VS Code extensions without using the FHS compatible environment.
 
-### 
+###
 
 WSL support
 
 Some work has been done to get WSL to work out of the box, but it is not working quite yet.
 
 ---
+
 [[Tutorials]]

@@ -1,5 +1,3 @@
-
-
 ## Capture Groups
 
 Rename a file like _script.js_ to _script.dev.js_

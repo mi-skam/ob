@@ -1,4 +1,3 @@
-#code/automation #code/ansible
 
 Ansible ist ein in Python geschriebenes Werkzeug zur Automatisierung von IT-Prozessen. Zu diesen gehören die **Installation von Software, Verteilung von Konfigurationen, Zugängen und Daten**, **Zustandsänderung von Programmen** (Anwendungen, Diensten).  Dabei werden in ***YAML*** geschriebene Anweisung etweder lokal ausgeführt oder an entfernte Systeme gesendet und dort ausgeführt.
 

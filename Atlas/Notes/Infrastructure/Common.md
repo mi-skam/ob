@@ -1,18 +1,17 @@
 ---
-comment: TP-Link Router, Access Point, OpenWRT
+comment:
+  - TP-Link Router, Access Point, OpenWRT
 roles:
   - router, ap
 os: openwrt
 ip: 192.168.178.1
 status: active
-date:
+created:
   - - 2023-08-02
-tags:
-  - "#network/homelab/device"
+tags: []
 ---
-#network/homelab 
 
-# [[Common]]
+# [[Atlas/Notes/Infrastructure/Common]]
  
 ## Log
 

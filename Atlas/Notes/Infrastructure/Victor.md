@@ -1,20 +1,17 @@
 ---
-comment: intel i5 6500u (4c, 8gb, 512GBSSD)
+comment:
+  - intel i5 6500u (4c, 8gb, 512GBSSD)
 roles:
   - dev, backup, vm-server
 os: nixos
 ip: 192.168.178.184
 status: active
-date:
+created:
   - - 2023-08-02
-tags:
-  - network/homelab/device
 ---
-#network/homelab 
-
 # [[Victor]]
 
-It's my main Server at the moment. I am running my dev stuff on it, and it's also mirroring the syncthing service of [[Zigzag]] as of [[2023-08-02]]  
+It's my main Server at the moment. I am running my dev stuff on it, and it's also mirroring the syncthing service of [[Atlas/Notes/Infrastructure/Zigzag]] as of [[2023-08-02]]  
 
 I can use this server to connect to with VSCode (there is a hack installed to make the node-server binary compatible).
 

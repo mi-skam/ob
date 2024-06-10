@@ -1,10 +1,9 @@
 ---
-date: 2024-04-02
+created: 2024-04-02
 tags:
   - moc
-modified: 2024-04-05T15:05:51+02:00
+ 2024-04-05T15:05:51+02:00
 ---
-
 
 ```dataview
 TABLE WITHOUT ID

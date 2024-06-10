@@ -1,9 +1,7 @@
 ---
 parent: "[[JavaScript]]"
-date: 2024-01-04
-tags:
-  - 🦠
-modified: 2024-03-27T09:24:42+01:00
+created: 2024-01-04
+tags: 2024-03-27T09:24:42+01:00
 ---
 
 ## setInterval

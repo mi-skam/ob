@@ -68,6 +68,3 @@ https://www.foerderinfo.bund.de/foerderinfo/de/home/home_node.html
 - bis zu 70% 
 - Beantragung mit Herrn Breier
 - Lohnausgleich z.T. vom Arbeitsamt
-
-#business/money
-#nobj/money

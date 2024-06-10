@@ -1,11 +1,7 @@
 ---
 parent:
   - "[[Fleeting MOC]]"
-date: 2024-04-11
-modified: 2024-04-11T01:16:16+02:00
-tags:
-  - code/tutorial
-  - code/phaser3
+created: 2024-04-11 2024-04-11T01:16:16+02:00
 languages: javascript
 ---
 
@@ -27,4 +23,5 @@ To create an infinite scrolling list, you need a difference between an object (h
 ```
 
 ---
+
 [[Tutorials]]

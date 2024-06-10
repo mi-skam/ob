@@ -1,9 +1,7 @@
 ---
 tutorial: https://www.youtube.com/watch?v=_CaGUZNEobk
-repo: https://github.com/mi-skam/vault-typescript
 ---
 
-#code/ts
 
 strukturelles Typensystem ("Duck Typing")
 

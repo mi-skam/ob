@@ -1,6 +1,4 @@
 
-#code/editor 
-
 We use 'vim' as the term for all vim based editors, be it the classic vim editor or the fork neovim. 
 
 vim is a modal text editor which is extensible by using `viml`  or `lua` (neovim) to write configuration or even plugins.

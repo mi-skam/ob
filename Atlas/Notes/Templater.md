@@ -1,7 +1,7 @@
 ---
-aliases:
+aliases: 
 publish: true
-date: 2023-11-16
+created: 2023-11-16
 ---
 # Templater
 

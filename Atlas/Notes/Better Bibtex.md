@@ -1,12 +1,12 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-01-24
+created: 2024-01-24
 tags:
   - Zotero
-modified: 2024-01-24T12:08:11+01:00
+ 2024-01-24T12:08:11+01:00
 ---
 
-We use the [[Better Bibtex]] plugin for [[Zotero]] to ease the import of notes in *Zotero* to [[Obsidian]]
+We use the [[Better Bibtex]] plugin for [[Zotero]] to ease the import of notes in _Zotero_ to [[Obsidian]]
 
 ## Citatiton Key
 

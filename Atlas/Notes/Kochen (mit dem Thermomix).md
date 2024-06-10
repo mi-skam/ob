@@ -1,9 +1,9 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-04-02
+created: 2024-04-02
 tags:
   - food
-modified: 2024-04-02T23:19:44+02:00
+
 ---
 
 [Rezepte-Datenbank](https://cookidoo.de/foundation/de)

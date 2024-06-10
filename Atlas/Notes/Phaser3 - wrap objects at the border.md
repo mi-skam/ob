@@ -1,15 +1,10 @@
 ---
-parent:
-  - "[[Fleeting MOC]]"
-date: 2024-04-11
-modified: 2024-04-11T01:16:08+02:00
-tags:
-  - code/tutorial
-  - code/phaser3
+created: 2024-04-11 2024-04-11T01:16:08+02:00
 languages: javascript
 ---
 
 We wrap the object on the ...
+
 - left by comparing it with `-halfWidth`
 - right by comparing it with `gameWidtho + halfWidth`
 
@@ -28,5 +23,7 @@ This is symmetrical and looks like this:
     }
   }
 ```
+
 ---
+
 [[Tutorials]]

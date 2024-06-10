@@ -1,5 +1,3 @@
-****#linux/nixos 
-
 ## Enable Flakes
 
 Add this to your nix config:

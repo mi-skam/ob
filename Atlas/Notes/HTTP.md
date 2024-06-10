@@ -1,23 +1,21 @@
 ---
 parent: "[[Fleeting MOC]]"
-date: 2024-02-07
-tags:
-  - 🦠
-modified: 2024-02-07T18:48:19+01:00
+created: 2024-02-07
+tags: 2024-02-07T18:48:19+01:00
 ---
 
 ## Requests
 
-|HTTP Method|Description|
-|---|---|
-|GET|The client requests a resource on the web server.|
-|POST|The client submits data to a resource on the web server.|
-|PUT|The client replaces a resource on the web server.|
-|DELETE|The client deletes a resource on the web server.|
-|PATCH|The client partially updates a resource on the web server.|
-
+| HTTP Method | Description                                                |
+| ----------- | ---------------------------------------------------------- |
+| GET         | The client requests a resource on the web server.          |
+| POST        | The client submits data to a resource on the web server.   |
+| PUT         | The client replaces a resource on the web server.          |
+| DELETE      | The client deletes a resource on the web server.           |
+| PATCH       | The client partially updates a resource on the web server. |
 
 ![[Pasted image 20240207184042.png]]
+
 ### Headers
 
 ```
@@ -27,13 +25,14 @@ Accept: */*
 Accept-Language: en
 Content-type: text/json
 ```
+
 - The **Host** header specifies the host of the server and indicates where the resource is requested from.
 - The **User-Agent** header informs the web server of the application that is making the request. It often includes the operating system (Windows, Mac, Linux), version and application vendor.
 - The ** Accept** header informs the web server what type of content the client will accept as the response.
 - The **Accept-Language** header indicates the language and optionally the locale that the client prefers.
 - The **Content-type** header indicates the type of content being transmitted in the request body.
 
-*Examples*
+_Examples_
 
 ```
 POST /users HTTP/1.1
@@ -53,7 +52,9 @@ Content-type: text/json
 
 {"key1":"value1"}
 ```
+
 ## Response
+
 When the web server is finished processing the HTTP request, it will send back an HTTP response.
 
 The first line of the response is the status line. This line shows the client if the request was successful or if an error occurred.

@@ -1,5 +1,3 @@
-#lyrics #music
-
 Refrain
 Ich bin ein Trak-Trak-Traktor, ein roter Traktor.
 Der Bauernhof ist meine Welt, doch am liebsten fahr ich raus aufs Feld.

@@ -24,9 +24,6 @@ https://www.udemy.com/course/introduction-to-data-structures-algorithms-in-java/
 https://leetcode.com/list/?selectedList=rr3jn0xh
 https://leetcode.com/studyplan/top-interview-150/
 
-#learn/code
-#learn/cs
-
 ## Going Further
 
 | Ressource                                                | Description                                                                      |

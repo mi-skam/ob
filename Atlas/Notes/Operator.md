@@ -1,5 +1,5 @@
 ---
-alias: Rest operator, spread operator
+aliases: Rest operator, spread operator
 ---
 
 ## Overview

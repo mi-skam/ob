@@ -1,9 +1,5 @@
 
----
-tags: author
----
 
-```
 ```dataview
 TABLE WITHOUT ID
   file.link as Book,

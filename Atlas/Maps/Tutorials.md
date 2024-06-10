@@ -1,8 +1,7 @@
 ---
-date: 2024-04-03
+created: 2024-04-03
 tags:
-  - moc
-modified: 2024-04-03T17:52:47+02:00
+  - map/view
 ---
 
 ```dataview

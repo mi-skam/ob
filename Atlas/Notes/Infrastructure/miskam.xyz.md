@@ -1,10 +1,6 @@
 ---
-parent:
-  - "[[Homelab]]"
-date: 2024-04-22
+created: 2024-04-22
 tags:
-  - "#network/homelab/domains"
-modified: 2024-04-22T17:53:00+02:00
 ---
 
 ## sub-domains on miskam.xyz

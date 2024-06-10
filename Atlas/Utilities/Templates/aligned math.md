@@ -1,5 +1,0 @@
-$$
-\begin{aligned}
-
-\end{aligned}
-$$

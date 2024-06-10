@@ -1,9 +1,5 @@
 ---
-parent: "[[Fleeting MOC]]"
-date: 2023-12-24
-tags:
-  - 🦠
-modified: 2023-12-24T23:10:15+01:00
+created: 2023-12-24
 ---
 
 ## Dialoge
